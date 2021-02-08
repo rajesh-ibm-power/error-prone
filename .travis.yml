@@ -1,6 +1,10 @@
 language: java
 
-dist: trusty
+arch:
+  - amd64
+  - ppc64le
+
+dist: xenial
 
 jdk:
   - oraclejdk8
